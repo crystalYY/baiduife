@@ -115,6 +115,7 @@ header ul li a{
 .contain table th{
 	background-color: #333333;
 	color: white;
+	padding: 5px;
 }
 .contain table td{
 	border-color:#CCCCCC;
