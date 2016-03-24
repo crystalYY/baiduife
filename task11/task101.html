@@ -25,10 +25,10 @@
   button.onclick=function(){
     var inputText=document.getElementById('aqi-input').value;
     if(inputText==''){
-      document.getElementById('aqi-display').innerHTML='尚未赋值';
+      document.getElementById('aqi-display').innerText='尚未赋值';
     }
     else{
-      document.getElementById('aqi-display').innerHTML=inputText;
+      document.getElementById('aqi-display').innerText=inputText;
     }
     document.getElementById('aqi-input').value='';
   };
